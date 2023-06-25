@@ -59,7 +59,9 @@ display: none;
 }
 
 @media screen and (max-width: 1279px){
-
+.nav__head--list ul li a{
+font-size: 45px;
+}
 }
 
 @media screen and (max-width: 768px){
