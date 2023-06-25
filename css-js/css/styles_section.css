@@ -44,3 +44,43 @@ margin-top: -8vh;
   font-family: 'KoHo', sans-serif;
   letter-spacing: 2px;
 }
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 736px)
+and (orientation: portrait)
+{
+.info{
+    width: 100%;
+}
+
+.info_img{
+    width: 95%;
+    float: none;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.info_img img{
+    width: 70%;
+    border-radius: 3px;
+}
+
+.info_text{
+    width: 90%;
+    float: none;
+    margin-left: 5%;
+
+}
+
+.info_text h1{
+  font-size: 64px;
+  margin: 0 0 2vh 0;
+}
+
+.info_text p{
+  font-size: 44px;
+  letter-spacing: 2px;
+}
+}

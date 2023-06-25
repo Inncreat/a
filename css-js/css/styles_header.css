@@ -71,7 +71,11 @@ height: 100%;
 /*Estilos por dewfecto*/
 }
 
-@media screen and (max-width: 1279px){
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 736px)
+and (orientation: portrait)
+{
 .head__text{
 height: 30vh;
 }
