@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+header{ 
+width: 100%;
+height: 100vh;
+position: relative;
+z-index: 2;
+}
+
+.head__img{
+width: 100%;
+height: 100%;
+
+background-image: url("../../multimedia/images/wallpaper.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: scroll;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.head__text{
+width: 80vw;
+height:50vh;
+}
+
+.head__text--1{
+width: 100%;
+height: 50%;
+}
+
+.head__text--1 p{
+color: #ffffff;
+font-family: 'KoHo', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 90px;
+
+
+text-shadow: #313036 1px 1px,#313036 -0px 0px,#313036 -1px 1px,#313036 -2px 2px,#313036 -3px 3px,#313036 -4px 4px,#313036 -5px 5px,#313036 -6px 6px,#313036 -7px 7px,#313036 -8px 8px,#313036 -9px 9px,#313036 -10px 10px,#313036 -11px 11px,#313036 -12px 12px,#313036 -13px 13px,#313036 -14px 14px,#313036 -15px 15px,#313036 -16px 16px,#313036 -17px 17px,#313036 -18px 18px,#313036 -19px 19px,#313036 -20px 20px,#313036 -21px 21px,#313036 -22px 22px,#313036 -23px 23px,#313036 -24px 24px,#313036 -25px 25px,#313036 -26px 26px,#313036 -27px 27px,#313036 -28px 28px,#313036 -29px 29px;
+}
+
+.head__text--2{
+width: 100%;
+height: 50%;
+}
+
+.head__text--2 p{
+text-align: right;
+font-family: 'KoHo', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+margin: 1vh 2vw 0 0;
+
+
+color: #EFF9EE;
+font-family: 'Knewave';
+text-shadow: #DCA84D 1px 1px,#DCA84D 0px 0px,#DCA84D 1px 1px,#DCA84D 2px 2px,#DCA84D 3px 3px,#DCA84D 4px 4px,#DCA84D 5px 5px,#DCA84D 6px 6px,#DCA84D 7px 7px,#DCA84D 8px 8px,#DCA84D 9px 9px,#DCA84D 10px 10px,#DCA84D 11px 11px,#DCA84D 12px 12px,#DCA84D 13px 13px,#DCA84D 14px 14px,#DCA84D 15px 15px,#DCA84D 16px 16px,#DCA84D 17px 17px,#DCA84D 18px 18px,#DCA84D 19px 19px;
+}
+
+.head__text--1 p, .head__text--2 p{
+height: 100%;
+}
+
